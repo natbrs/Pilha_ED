@@ -1,4 +1,4 @@
-#  Estrutura de Dados | 📝 Exercícios de Pilha com Java
+# 📝 Estrutura de Dados | Exercícios de Pilha com Java
 
 - Exercício 01 - Implemente uma função que imprima os elementos de uma Pilha.
 - Exercício 02 - Faça uma função que inverta a ordem dos elementos da Pilha.
