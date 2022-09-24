@@ -86,8 +86,16 @@ Como estamos usando uma lista simplesmente encadeada podemos acessar todos os el
 
 ### Verificar o topo da pilha
 
-
-
+```
+No topo;
+   tipo topo() {
+      se (pilhaVazia() == verdadeiro) {
+          exceção(“Não há elementos na pilha”);
+      }
+      tipo valor = topo.dado;
+      retorne valor;
+}
+```
 
 # 📝 Exercícios de Pilha com Java
 
