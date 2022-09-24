@@ -29,8 +29,8 @@ Teste de pilha vazia;
 
 ## Pilha: Alocação Dinâmica
 
-```
 Considere a definição do tipo Pilha abaixo:
+```
 class No {
 Tipo dado;
 No próximo; //Ponteiro
