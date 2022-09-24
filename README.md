@@ -161,5 +161,5 @@ class exemplo {
 - [x] Faça uma função para retornar o número de elementos da Pilha que possuem valor par.
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 <div align="center">
-    © Material fornecido por <a href="[https://www.homehost.com.br/](https://br.linkedin.com/in/icarofreitas)">Prof° Ícaro de Paula Freitas</a></p>
+    © Material fornecido por <a href="https://br.linkedin.com/in/icarofreitas">Prof° Ícaro de Paula Freitas</a></p>
 </div>
