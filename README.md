@@ -17,6 +17,16 @@ Pilhas são listas lineares com disciplina de acesso FILO (first-in, last-out, o
 vetor;
 - Alocação Dinâmica: Utilizando ponteiro.
 
+## Operações Básicas:
+
+Teste de pilha vazia;
+- Criação da pilha;
+- Empilhamento;
+- Desempilhamento;
+- Acesso aos elementos da pilha
+✓ Topo
+✓ Tamanho
+
 # 📝 Exercícios de Pilha com Java
 
 - ✅ Implemente uma função que imprima os elementos de uma Pilha.
