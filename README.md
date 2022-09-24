@@ -36,6 +36,7 @@ Tipo dado;
 No próximo; //Ponteiro
 }
 ```
+
 ## Teste de Pilha Vazia
 
 ```
@@ -47,6 +48,22 @@ No topo;
   retorne falso;
   }
 }
+```
+
+## Empilhando um elemento (push)
+
+```
+No topo;
+   void push (tipo e) {
+      No elemento = new No();
+      elemento.dado = e;
+          se (pilhaVazia() == verdadeiro) {
+             topo = elemento;
+          } senão {
+          elemento.proximo = topo;
+          topo = elemento;
+          } 
+   }
 ```
 
 # 📝 Exercícios de Pilha com Java
