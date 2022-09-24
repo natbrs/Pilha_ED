@@ -160,4 +160,4 @@ class exemplo {
 - [x] Faça uma função para retornar o número de elementos da Pilha que possuem valor ímpar.
 - [x] Faça uma função para retornar o número de elementos da Pilha que possuem valor par.
 
-© Material fornecido por <a href="https://www.homehost.com.br/">Prof° Ícaro de Paula Freitas</a></p>
+<center>© Material fornecido por <a href="https://www.homehost.com.br/">Prof° Ícaro de Paula Freitas</a></p></center>
