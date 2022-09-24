@@ -11,7 +11,7 @@ A pilha armazena apenas a posição de uma de suas extremidades (chamada topo), 
 
 Pilhas são listas lineares com disciplina de acesso FILO (first-in, last-out, ou, o primeiro a entrar é o último a sair).
 
-## Alocação de memória
+## Alocação de Memória
 
 - Alocação Estática: Em geral através de arranjo ou
 vetor;
@@ -26,6 +26,16 @@ Teste de pilha vazia;
 - Acesso aos elementos da pilha;
 - ✓ Topo
 - ✓ Tamanho
+
+## Pilha: Alocação Dinâmica
+
+```
+Considere a definição do tipo Pilha abaixo:
+class No {
+Tipo dado;
+No próximo; //Ponteiro
+}
+```
 
 # 📝 Exercícios de Pilha com Java
 
