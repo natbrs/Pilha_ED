@@ -32,8 +32,8 @@ Teste de pilha vazia;
 Considere a definição do tipo Pilha abaixo:
 ```
 class No {
-Tipo dado;
-No próximo; //Ponteiro
+   Tipo dado;
+   No próximo; //Ponteiro
 }
 ```
 
@@ -65,6 +65,29 @@ No topo;
           } 
    }
 ```
+
+## Desempilhando um elemento (pop)
+
+```
+No topo;
+   tipo pop() {
+      se (pilhaVazia() == verdadeiro) {
+          exceção(“Não há elementos para desempilhar”);
+      }
+      tipo valor = topo.dado;
+      topo = topo.proximo;
+      retorne valor;
+   }
+```
+
+## Acessando elementos da pilha
+
+Como estamos usando uma lista simplesmente encadeada podemos acessar todos os elementos da pilha, a partir do topo, sem ter a necessidade de desempilhá-los.
+
+### Verificar o topo da pilha
+
+
+
 
 # 📝 Exercícios de Pilha com Java
 
