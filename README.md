@@ -97,6 +97,24 @@ No topo;
 }
 ```
 
+## Verificar o tamanho da pilha:
+
+```
+No topo;
+   tipo tamanho() {
+   int cont = 0;
+      se (pilhaVazia() == falso) {
+         No auxiliar = topo;
+         cont = 1;
+         enquanto (auxiliar.proximo != null) {
+             cont = cont + 1;
+         auxiliar = auxiliar.proximo;
+   }
+}
+ retorne cont;
+}
+```
+
 # 📝 Exercícios de Pilha com Java
 
 - ✅ Implemente uma função que imprima os elementos de uma Pilha.
