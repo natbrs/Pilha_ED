@@ -36,6 +36,18 @@ Tipo dado;
 No próximo; //Ponteiro
 }
 ```
+## Teste de Pilha Vazia
+
+```
+No topo;
+   booleano pilhaVazia() {
+       se (topo == nulo) {
+          retorne verdadeiro;
+       } senão {
+  retorne falso;
+  }
+}
+```
 
 # 📝 Exercícios de Pilha com Java
 
