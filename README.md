@@ -131,7 +131,6 @@ No topo;
       } 
  retorne cont;
 }
-
 ```
 
 
@@ -151,7 +150,6 @@ class exemplo {
                   ...
   }
 }
-
 ```
 
 
