@@ -23,9 +23,9 @@ Teste de pilha vazia;
 - Criação da pilha;
 - Empilhamento;
 - Desempilhamento;
-- Acesso aos elementos da pilha
-✓ Topo
-✓ Tamanho
+- Acesso aos elementos da pilha;
+- ✓ Topo
+- ✓ Tamanho
 
 # 📝 Exercícios de Pilha com Java
 
