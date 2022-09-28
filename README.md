@@ -31,9 +31,9 @@ Teste de pilha vazia;
 
 Considere a definição do tipo Pilha abaixo:
 ```
-class No {
-   Tipo dado;
-   No próximo; //Ponteiro
+public class No {
+    int dado;
+    No proximo;
 }
 ```
 
@@ -41,12 +41,13 @@ class No {
 
 ```
 No topo;
-   booleano pilhaVazia() {
-       se (topo == nulo) {
-          retorne verdadeiro;
-       } senão {
-  retorne falso;
-  }
+
+public boolean pilhaVazia(){ 
+	if(this.topo == null) {
+	    return true;
+	}else{
+       return false;     
+	}
 }
 ```
 
@@ -54,16 +55,17 @@ No topo;
 
 ```
 No topo;
-   void push (tipo e) {
-      No elemento = new No();
-      elemento.dado = e;
-          se (pilhaVazia() == verdadeiro) {
-             topo = elemento;
-          } senão {
-          elemento.proximo = topo;
-          topo = elemento;
-          } 
-   }
+
+public void push(int e){
+	No elemento = new No();
+        elemento.dado = e;
+            if (pilhapVazia() == true){
+                topo = elemento;
+            }else{
+            elemento.proximo = top;
+            topo = proximo;
+            } 
+	}
 ```
 
 ## Desempilhando um elemento (pop)
@@ -78,6 +80,15 @@ No topo;
       topo = topo.proximo;
       retorne valor;
    }
+
+public int pop(){
+        if(pilhaVazia() == true) {
+            System.out.print("Zero elementos!");
+	    }
+       int valor = topo.dado;
+       top = topo.proximo;
+       return valor;
+}
 ```
 
 ## Acessando elementos da pilha
@@ -88,13 +99,14 @@ Como estamos usando uma lista simplesmente encadeada podemos acessar todos os el
 
 ```
 No topo;
-   tipo topo() {
-      se (pilhaVazia() == verdadeiro) {
-          exceção(“Não há elementos na pilha”);
-      }
-      tipo valor = topo.dado;
-      retorne valor;
-}
+
+public int topo() { 
+        if(pilhaVazia() == true){
+            System.out.print("Zero elementos!");
+        } 
+        int valor = topo.dado;
+        return valor;
+    }
 ```
 
 ## Verificar o tamanho da pilha:
@@ -115,38 +127,19 @@ No topo;
 }
 ```
 
-## Verificar o tamanho da pilha:
-
-```
-No topo;
-   tipo tamanho() {
-   int cont = 0;
-      se (pilhaVazia() == falso) {
-         No auxiliar = topo;
-         cont = 1;
-         enquanto (auxiliar.proximo != null) {
-             cont = cont + 1;
-             auxiliar = auxiliar.proximo;
-         }
-      } 
- retorne cont;
-}
-```
-
-
 ## Exemplo (pilha de inteiros):
 
 ```
-class exemplo {
-   void main(String[] args) {
+public class exemplo {
+   public static void main(String[] args) {
         Pilha p = new Pilha();
         p.push(5);
         p.push(4);
         p.push(3);
-        inteiro topo = p.topo();
-             escreva(“Topo:”+topo);
-             inteiro tamanho = p.tamanho();
-                  escreva(“Tamanho da Pilha:”+tamanho);
+        int topo = p.topo();
+             System.out.println(“Topo:”+topo);
+             int tamanho = p.tamanho();
+                  System.out.println(“Tamanho da Pilha:”+tamanho);
                   ...
   }
 }
