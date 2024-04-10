@@ -11,9 +11,9 @@ Pilha 🔋<br>
 
 É uma estrutura de dados de tamanho variável, sendo que elementos são incluídos (empilhados) e/ou removidos (desempilhados) apenas pela extremidade topo.
 
-## FILO (first-in, last-out)
+## LIFO (last-in, first-out)
 
-Pilhas são listas lineares com disciplina de acesso FILO (first-in, last-out, ou, o primeiro a entrar é o último a sair).
+Pilhas são listas lineares com disciplina de acesso LIFO (Last In, First Out), ou seja, o último elemento a ser inserido é o primeiro a ser removido. 
 
 ## Alocação de Memória
 
